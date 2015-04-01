@@ -48,7 +48,7 @@ Get more flavors of Pop-Up CC Pro:
 **Pop-Up CC Pro Time**
 
 
-Build elegant and professional pop-ups in a couple of minutes. Create attractive content and the pop-ups matching your website’s design. Preview your changes live while editing the content in our custom visual editor. Decide when the visitors see your pop-up - set the time and display the pop-up exactly when and where you want to.
+Build elegant and professional pop-ups in a couple of minutes. Create attractive content and the pop-ups matching your website's design. Preview your changes live while editing the content in our custom visual editor. Decide when the visitors see your pop-up - set the time and display the pop-up exactly when and where you want to.
 
 [Get Pop-Up CC Pro Time](https://shop.chop-chop.org/pop-up-cc-pro/?utm_source=wordpressorg&utm_medium=pop-up-free&utm_campaign=wordpressorg-free-plugin)
 
