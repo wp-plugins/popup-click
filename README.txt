@@ -139,6 +139,15 @@ Contact shop@chop-chop.org if you have any questions or wish to provide feedback
 
 == Screenshots ==
 
+1. [White Pop-Up Template (default)](https://shop.chop-chop.org/demo/pop-up-cc/)
+2. Gold Pop-Up Template
+3. Linen Pop-Up Template
+4. Black Pop-Up Template 
+5. Aqua Pop-Up Template
+6. Red Pop-Up Template 
+7. Customization panel
+8. Admin panel
+
 == Changelog ==
 
 = 1.0.0 =
