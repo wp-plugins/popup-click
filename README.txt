@@ -139,7 +139,7 @@ Contact shop@chop-chop.org if you have any questions or wish to provide feedback
 
 == Screenshots ==
 
-1. [White Pop-Up Template (default)](https://shop.chop-chop.org/demo/pop-up-cc/)
+1. White Pop-Up Template (default)
 2. Gold Pop-Up Template
 3. Linen Pop-Up Template
 4. Black Pop-Up Template 
