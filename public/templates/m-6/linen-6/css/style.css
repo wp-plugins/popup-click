@@ -1,0 +1,31 @@
+/*** General ***/
+
+.linen-6.pop-up-cc a, .linen-6.pop-up-cc a:hover {
+  color: #524b32 !important;
+}
+.linen-6.pop-up-cc {
+  color: #090909; 
+  font-family: "Lora";
+}
+.linen-6 .modal-inner {
+  background: #f0eee7 !important;
+  padding-top: 40px !important;
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.3) !important;
+}
+
+/*** Close Button ***/
+
+.linen-6 .cc-pu-close {
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #f0eee7 !important;
+}
+.linen-6 .cc-pu-close i {
+  color: #524b32 !important;
+}
+.linen-6 .modal-inner-caption {
+	color: #090909 !important;   
+  font-family: "Lora" !important;
+}

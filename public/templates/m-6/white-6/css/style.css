@@ -1,0 +1,32 @@
+/*** General ***/
+
+.white-6.pop-up-cc a, .white-6.pop-up-cc a:hover {
+  color: #989898;
+}
+.white-6.pop-up-cc {
+  color: #090909;    
+  font-family: "Open Sans";
+}
+.white-6 .modal-inner {
+  background: #fff;
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.3);
+}
+
+/*** Close Button ***/
+
+.white-6 .cc-pu-close {
+  right: 0;
+  bottom: 0;
+  top:auto;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+.white-6 .cc-pu-close i {
+  color: #090909;
+}
+
+.white-6 .modal-inner-caption {
+	color: #090909 !important;   
+  font-family: "Open Sans" !important;
+}
