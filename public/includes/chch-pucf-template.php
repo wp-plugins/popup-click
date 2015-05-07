@@ -155,7 +155,7 @@ class ChChPCFTemplate {
 		$script = '<script type="text/javascript">';
 		$script .= 'jQuery(function($) {';
 		
-		$script .= 'if(!$.cookie("shown_modal_'.$id.'")){ ';
+		$script .= 'if(!Cookies.get("shown_modal_'.$id.'")){ ';
 
 		$script .= $mobile_header; 
 	 
@@ -191,6 +191,8 @@ class ChChPCFTemplate {
 	function enqueue_template_style(){ 	
 	
 		$options = $this->get_template_options();
+     
+	   wp_enqueue_style($this->plugin_slug .'_google-fonts', '//fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Lora:400,700|Open+Sans:400,300,700|Oswald:700,300|Roboto:400,700,300|Signika:400,700,300', null, ChChPopUpClick::VERSION, 'all');  
 	
 		if(file_exists(CHCH_PUCF_PLUGIN_DIR . 'public/templates/css/defaults.css')) {
 			wp_enqueue_style($this->plugin_slug .'_template_defaults', CHCH_PUCF_PLUGIN_URL . 'public/templates/css/defaults.css', null, ChChPopUpClick::VERSION, 'all');  

@@ -18,14 +18,20 @@ global $wpdb;
 
 if ( is_multisite() ) {
 
-	$blogs = $wpdb->get_results( "SELECT blog_id FROM {$wpdb->blogs}", ARRAY_A ); 
+	$blogs = $wpdb->get_results( "SELECT blog_id FROM {$wpdb->blogs}", ARRAY_A );
+	delete_option( 'chch_pucf_license_key');
+	delete_option( 'chch_pucf_license_status');	 
 	if ( $blogs ) {
 
 	 	foreach ( $blogs as $blog ) {
-			switch_to_blog( $blog['blog_id'] ); 
+			switch_to_blog( $blog['blog_id'] );
+			delete_option( 'chch_pucf_license_key');
+			delete_option( 'chch_pucf_license_status');
 			restore_current_blog();
 		}
 	}
 
-} else { 
+} else {
+	delete_option( 'chch_pucf_license_key');
+	delete_option( 'chch_pucf_license_status');
 }

@@ -9,26 +9,26 @@ jQuery(document).ready(function($) {
 		 
 		if(controlViews === 'yes' && controlExpires != 'refresh'){
 			$("#modal-"+chchPopUpID).addClass("chch_shown");
-			if(!$.cookie('shown_modal_'+chchPopUpID)){
+			if(!Cookies.get('shown_modal_'+chchPopUpID)){
 				switch(controlExpires){
 					case 'session':
-						$.cookie('shown_modal_'+chchPopUpID, 'true',{ path: '/' });	
+						Cookies.set('shown_modal_'+chchPopUpID, 'true',{ path: '/' });	
 					break;
 					
 					case 'day':
-						$.cookie('shown_modal_'+chchPopUpID, 'true',{ expires: 1, path: '/' });	
+						Cookies.set('shown_modal_'+chchPopUpID, 'true',{ expires: 1, path: '/' });	
 					break;
 					
 					case 'week':
-						$.cookie('shown_modal_'+chchPopUpID, 'true',{ expires: 7, path: '/' });	
+						Cookies.set('shown_modal_'+chchPopUpID, 'true',{ expires: 7, path: '/' });	
 					break;
 					
 					case 'month':
-						$.cookie('shown_modal_'+chchPopUpID, 'true',{ expires: 31, path: '/' });	
+						Cookies.set('shown_modal_'+chchPopUpID, 'true',{ expires: 31, path: '/' });	
 					break;
 					
 					case 'year':
-						$.cookie('shown_modal_'+chchPopUpID, 'true',{ expires: 365, path: '/' });	
+						Cookies.set('shown_modal_'+chchPopUpID, 'true',{ expires: 365, path: '/' });	
 					break;			
 				}
 				

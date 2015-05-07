@@ -4,7 +4,7 @@ Contributors: chopchoporg
 Tags: popup, popups, click, popup click, pop-up click, modal click, on click, window click, pop-up, pop-ups, pop up, pop ups, modal, modal window, wordpress popup, responsive popup, conversion, mailing
 Requires at least: 3.5.1
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,7 +48,7 @@ Get more flavors of Pop-Up CC Pro:
 **Pop-Up CC Pro Time**
 
 
-Build elegant and professional pop-ups in a couple of minutes. Create attractive content and the pop-ups matching your website's design. Preview your changes live while editing the content in our custom visual editor. Decide when the visitors see your pop-up - set the time and display the pop-up exactly when and where you want to.
+Build elegant and professional pop-ups in a couple of minutes. Create attractive content and the pop-ups matching your website’s design. Preview your changes live while editing the content in our custom visual editor. Decide when the visitors see your pop-up - set the time and display the pop-up exactly when and where you want to.
 
 [Get Pop-Up CC Pro Time](https://shop.chop-chop.org/pop-up-cc-pro/?utm_source=wordpressorg&utm_medium=pop-up-free&utm_campaign=wordpressorg-free-plugin)
 
@@ -139,16 +139,10 @@ Contact shop@chop-chop.org if you have any questions or wish to provide feedback
 
 == Screenshots ==
 
-1. White Pop-Up Template (default)
-2. Gold Pop-Up Template
-3. Linen Pop-Up Template
-4. Black Pop-Up Template 
-5. Aqua Pop-Up Template
-6. Red Pop-Up Template 
-7. Customization panel
-8. Admin panel
-
 == Changelog ==
+
+= 1.0.1 =
+Fix google fonts
 
 = 1.0.0 =
 First release
