@@ -52,11 +52,7 @@ class ChChPopUpClickAdmin {
     add_action( 'cmb2_init', array( $this, 'chch_pucf_initialize_cmb_meta_boxes' ) );
     add_filter( 'cmb2_render_chch_pucf_pages_select', array( $this, 'chch_pucf_render_pages_select' ), 10, 5 );
     add_filter( 'cmb2_render_chch_pucf_cookie_select', array( $this, 'chch_pucf_render_cookie_select' ), 10, 5 );
-    add_action( 'add_meta_boxes_chch-pucf', array( $this, 'chch_pucf_metabox' ) );
-
-    // remove help tabs
-    add_filter( 'contextual_help', array( $this, 'chch_pucf_remove_help_tabs' ), 999, 3 );
-    add_filter( 'screen_options_show_screen', '__return_false' );
+    add_action( 'add_meta_boxes_chch-pucf', array( $this, 'chch_pucf_metabox' ) ); 
 
     // Save Post Data
     add_action( 'save_post', array( $this, 'chch_pucf_save_pop_up_meta' ), 10, 3 );
@@ -403,19 +399,7 @@ class ChChPopUpClickAdmin {
       add_filter( 'postbox_classes_chch-pucf_' . $post_box, array( $this, 'chch_pucf_add_metabox_classes' ) );
     }
   }
-
-  /**
-   * Remove help tabs from post view.
-   *
-   * @since     1.0.7
-   * 
-   */
-  function chch_pucf_remove_help_tabs( $old_help, $screen_id, $screen ) {
-    if ( 'post' == $screen->base && 'chch-pucf' === $screen->post_type ) {
-      $screen->remove_help_tabs();
-      return $old_help;
-    }
-  }
+ 
 
   /**
    * Add metabox class for tabs
